@@ -7,3 +7,8 @@
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
 require_once ABSPATH . 'wp-settings.php';
+define('DB_HOST', '127.0.0.1');
+define('DB_NAME', 'vertics');
+ define('DB_USER', 'root');
+ define('DB_PASSWORD', '');
+
